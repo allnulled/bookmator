@@ -1,12 +1,30 @@
 {
   "name": "bookmator",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "bin": {
+    "bookmator": "./bin.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "scripts": {
+    "test": "node bin.js compile test/sample.md"
+  },
+  "keywords": ["markdown", "recursive", "tree", "book", "generator", "cli", "api"],
+  "author": "allnulled",
+  "license": "WTFPL",
+  "devDependencies": {
+    "yargs": "^15.3.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allnulled/bookmator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/allnulled/bookmator/issues"
+  },
+  "homepage": "https://github.com/allnulled/bookmator#readme",
+  "description": "Generate markdown from filesystem recursion."
 }
