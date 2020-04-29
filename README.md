@@ -46,7 +46,7 @@ This could perfectly be a senseful tree for `bookmator`:
 ### From CLI
 
 ```sh
-$ bookmator docs/README.md
+$ bookmator compile docs/README.md
 ```
 
 ### From api
