@@ -2,6 +2,8 @@
 
 Generate markdown from filesystem recursion. Useful to maintain big markdown documents.
 
+[![NPM](https://nodei.co/npm/bookmator.png?stars&downloads)](https://www.npmjs.com/package/bookmator)
+
 ## Installation
 
 ```sh
